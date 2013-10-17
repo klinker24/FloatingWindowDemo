@@ -78,9 +78,9 @@ public class PopupMainActivity extends MainActivity {
                 finish();
 
                 // Starts the new regular main activity
-                Intent window = new Intent(context, MainActivity.class);
-                window.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(window);
+                Intent fullApp = new Intent(context, MainActivity.class);
+                fullApp.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(fullApp);
             }
         });
     }
