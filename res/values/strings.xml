@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floating Window Demo</string>
+    <string name="switch_to_window">Switch to Window!</string>
+    <string name="switch_to_full">Switch to Full Screen!</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.klinker.android.floating_window"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="14"
+            android:targetSdkVersion="18" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+
+        <activity android:name=".MainActivity"
+                  android:theme="@android:style/Theme.Holo.Light"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation|screenSize"
+                  android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- The style for the theme is very important here.
+             Check the styles xml and use what is given there.
+             That is what sets up the actual windowed functionality -->
+
+        <activity
+                android:name="PopupMainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/Theme.FloatingWindow.Popup"
+                android:configChanges="orientation|screenSize"
+                android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
+                android:clearTaskOnLaunch="true"
+                android:exported="true"
+                tools:ignore="ExportedActivity" />
+
+    </application>
+
+</manifest>
