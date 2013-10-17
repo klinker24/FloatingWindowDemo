@@ -1,6 +1,9 @@
 FloatingWindowDemo
 ==================
 
+XDA Guide: http://forum.xda-developers.com/showthread.php?p=46569392#post46569392
+Play Store Demo: https://play.google.com/store/apps/details?id=com.klinker.android.floating_window&hl=en
+
 This is just a demo of how to create a floating window activity such as Paranoid Android's Halo is able to do.
 
 It is actually a very simple process. The way me and Jacob Klinker do it for our apps is by extending the MainActivity in some kind of popup activity, setting the theme to one of androids .Dialog themes, then using the built in window manager to set the size of the window.
@@ -15,6 +18,6 @@ Obviously this is very basic, as I said. It is the framework for building awesom
 
 Hope you enjoy this, a lot of very powerful stuff can come from a floating window implementation like this!
 
-Credit goes to Paranoid Android for the idea, then Jacob Klinker and I for the implementation.
+Credit goes to Paranoid Android for the idea, then Jacob Klinker and I for the implementation and method
 
 -- Luke Klinker
