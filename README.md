@@ -2,6 +2,7 @@ FloatingWindowDemo
 ==================
 
 XDA Guide: http://forum.xda-developers.com/showthread.php?p=46569392#post46569392
+
 Play Store Demo: https://play.google.com/store/apps/details?id=com.klinker.android.floating_window&hl=en
 
 This is just a demo of how to create a floating window activity such as Paranoid Android's Halo is able to do.
