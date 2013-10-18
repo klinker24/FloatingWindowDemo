@@ -14,6 +14,7 @@ gen/
 
 # Local configuration file (sdk path, etc)
 local.properties
+ant.properties
 
 .settings
 eclipsebin
@@ -44,6 +45,8 @@ obj
 .DS_Store
 
 Keystore
+
+*.apk
 
 #ignore thumbnails created by windows
 Thumbs.db
