@@ -1,6 +1,8 @@
 FloatingWindowDemo
 ==================
 
+![Alt text](/screenshots/screen1.png "Screen 1") ![Alt text](/screenshots/screen2.png "Screen 2")
+
 XDA Guide: http://forum.xda-developers.com/showthread.php?p=46569392#post46569392
 
 Play Store Demo: https://play.google.com/store/apps/details?id=com.klinker.android.floating_window&hl=en
